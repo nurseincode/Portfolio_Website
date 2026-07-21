@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Wangari • Web Developer</title>
+    <title>Contact | Web Developer</title>
 
     <meta name="description"
         content="A Registered Nurse transitioning into Web Development">
@@ -76,49 +76,83 @@
 
     <main id="main-content">
 
-        <section class="about-section">
+        <section class="contact-section">
 
             <div class="container">
 
-                <h1>About Me</h1>
+                <h1>Let's Connect</h1>
 
-                <div class="about-content">
+                <div class="message-container">
 
-                    <article class="about-item">
+                    <h3>Send Me a Message</h3>
 
-                        <h3>My Background</h3>
+                    <h4>
+                        Whether you have a question, an opportunity, or simply want to connect,
+                        I'd love to hear from you.
+                    </h4>
 
-                        <p>
-                            I began my professional career as a Registered Nurse, where I developed strong communication,
-                            teamwork, critical thinking, and problem-solving skills while caring for people in a variety
-                            of healthcare settings.
-                        </p>
+                </div>
 
-                        <p>
-                            My passion for learning eventually led me into web development, where I discovered how
-                            much I enjoy creating clean, responsive, and user-friendly websites. I am currently building
-                            my skills in HTML, CSS, JavaScript, Python, databases, APIs, and responsive web design while
-                            continuing to expand my knowledge through practical projects.
-                        </p>
+                <div class="contact-content">
 
-                    </article>
+                    <form class="contact-form" action="#" method="post">
 
-                    <article class="about-item">
+                        <label for="name">Full Name</label>
 
-                        <h3>My Interests</h3>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            autocomplete="name"
+                            required>
 
-                        <p>
-                            I enjoy solving problems, learning new technologies, reading books, cooking, exploring
-                            creative ideas, and continually improving both personally and professionally.
-                        </p>
+                        <label for="email">Email Address</label>
 
-                        <p>
-                            Outside of technology, I value spending quality time with family and friends and finding
-                            inspiration in everyday experiences. I believe curiosity and continuous learning are the
-                            foundation of both personal growth and successful software development.
-                        </p>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            autocomplete="email"
+                            required>
 
-                    </article>
+                        <label for="message">Message</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Tell me a little about your project or enquiry..."
+                            required></textarea>
+
+                        <button type="submit">
+                            Send Message
+                        </button>
+
+                    </form>
+
+                    <div class="social-links">
+
+                        <a
+                            href="https://www.linkedin.com/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            LinkedIn
+
+                        </a>
+
+                        <a
+                            href="https://github.com/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            GitHub
+
+                        </a>
+
+                    </div>
 
                 </div>
 
@@ -139,14 +173,16 @@
                     <div class="logo">
 
                         <a href="index.html">
+
                             .dev
+
                         </a>
 
                     </div>
 
                     <p>
-                        Building modern, responsive websites while transitioning from healthcare into software
-                        development.
+                        Building modern, responsive websites while transitioning
+                        from healthcare into software development.
                     </p>
 
                 </div>
@@ -158,10 +194,10 @@
                     <ul>
 
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html" aria-current="page">About</a></li>
+                        <li><a href="about.html">About</a></li>
                         <li><a href="skills.html">Skills</a></li>
                         <li><a href="Projects/project/index.html">Projects</a></li>
-                        <li><a href="contacts.html">Contact</a></li>
+                        <li><a href="contacts.html" aria-current="page">Contact</a></li>
 
                     </ul>
 
@@ -193,6 +229,4 @@
 
 </body>
 
-</html>
-</body>
 </html>
